@@ -1,0 +1,17 @@
+body {
+    background-color: powderblue;
+}
+h1 {
+    color: blue;
+    font-size:32px;
+    font:Verdana;
+    font-weight:bold;
+}
+h2{
+    color: bisque;
+    font-size: large;
+    
+}
+p {
+    color: red;
+}

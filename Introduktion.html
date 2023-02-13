@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.Introduktion.org/1999/html"
+
+<head>
+  <meta charset="UTF-8">
+  <title>Heading text</title>
+
+  <style type="Text/css">
+  * {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+      font-family: Arial;
+  }
+  header {
+    background-color: #e19cce;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(232, 204, 222);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+ 
+  #header-banner-div
+  {
+      width:100%;
+      min-height: 100px;
+      background-color: lightgray;
+      text-align: center;
+      line-height: 100px;
+      margin-bottom: 10px;
+      font-weight: bold;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 100px;
+      color: #5f5b5b;
+  }
+  #main-div
+  {
+      width: 100%;
+      margin-bottom: 3px;
+      text-align: center;
+      line-height: 60px;
+      text-decoration: none;
+
+  }
+  #sidebar-div
+  {
+      width: 20%;
+      min-height: 400px;
+      background-color: rgb(169, 141, 167);
+      float: left;
+      text-align: center;
+      line-height: 60px;
+  }
+  #bodyarea-div
+  {
+      width: 75%;
+      min-height: 400px;
+      background-color: lightgray;
+      float: right;
+      text-align: center;
+      line-height: 400px;
+      margin-bottom: 20px;
+  }
+  /* Add a black background color to the top navigation */
+  .topnav {
+      background-color: #bab7b7;
+      overflow: hidden;
+  }
+
+  /* Style the links inside the navigation bar */
+  .topnav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+  }
+
+  /* Change the color of links on hover */
+  .topnav a:hover {
+      background-color: #ddd;
+      color: rgb(216, 211, 211);
+  }
+
+  button{
+    display: block;
+    margin-bottom: 40px;
+    text-align: center;
+    line-height: 20px;
+    margin-block-end: 20%;
+    margin-inline: 25%;
+    background-color: rgb(169, 141, 167);
+    text-decoration: none;
+    border: none;
+  }
+  /* Add a color to the active/current link */
+  .topnav a.active {
+      background-color: #04AA6D;
+      color: white;
+  }
+  /* Clear floats after the columns */
+  .clearfix::after
+  {
+      content: "";
+      display: block;
+      clear: both;
+  }
+  #footer-div
+    {
+      width: 100%;
+      min-height: 50px;
+      background-color: lightgray;
+      text-align: center;
+      line-height: 50px;
+      clear: both;
+    }
+    #wrapper-div
+    {
+        width: 80%;
+        background-color: rgb(230, 226, 226);
+        margin: 80px;
+    }
+    img{
+      width: 300px;
+      height: 400px;
+      margin-top: -100px;
+    }
+    
+    /* Style the list inside the menu */
+    nav ul {
+      list-style-type: none;
+      padding-top: 10%;
+      padding-bottom: 10%;
+    }
+    nav ol {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    
+
+    a{
+      text-decoration: none;
+      color: #b02e8b;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .underline{
+      text-decoration: underline;
+    }
+
+    @media (max-width: 300px) {
+    nav, des {
+      width: 100%;
+      height: auto;
+    }  
+
+    #mylink {
+      position: relative;
+    }
+
+    #mybox {
+    position: absolute;
+    display: none;
+    top: 20px;
+    left: 20px;
+    background-color: lightgray;
+    padding: 10px;
+    }
+
+    #mylink:hover + #mybox {
+    display: block;
+    }
+    
+    
+
+
+    
+}
+ 
+  
+  </style>
+  </head>
+  <body>
+  
+
+
+  <div id="wrapper-div">
+
+  <div id="header-banner-div">
+  <header> 
+    Mig, Mig & Mig, Nu Skal I Bare Høre...   
+  </header>
+
+  </div>
+
+  <div id="main-div" class="clearfix" >
+    <nav>
+      <ul id="sidebar-div">
+      <li><a class="active" href="https://www.Introduktion.com" id="Introduktion">Introduktion</a></li>
+      <li><a href="https://www.Uddannelser.com" id="Uddannelser">Uddannelser</a></li>
+      <li><a href="https://www.Jobs.com" id="Jobs">Jobs</a></li>
+      <li><a href="https://www.Projekter.com" id="Projekter">Projekter</a></li>
+      </ul>
+    </nav>
+  <div id= "bodyarea-div" class="clearfix" >
+    <des>  
+     <img src="https://i.pinimg.com/originals/4a/19/7c/4a197cc1b7a3b60087d34862d0acb3af.jpg" alt="">
+    
+    </des> 
+  </div>
+  </div>
+
+ 
+
+  <div id="footer-div">
+    <nav>
+    <a href="https://www.facebook.com/baloulou99" class="underline" target="_blank">Facebook</a>
+    <a href="https://www.instagram.com/maloulou99/" class="underline" target="_blank">Instagram</a>
+    <a href="https://www.linkedin.com/in/malou-lundstr%C3%B8m-67a652101/" class="underline" target="_blank">Linkedin</a>
+    </nav>
+  </div>
+
+</div>
+
+</body>
+
+</html>
